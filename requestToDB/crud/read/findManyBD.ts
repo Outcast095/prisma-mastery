@@ -1,8 +1,8 @@
 // 1. Импортируем инстанс prisma (с маленькой буквы) для выполнения запросов
-import { prisma } from "../../src/prisma.js";
+import { prisma } from "../../../src/prisma.js";
 
 // 2. Импортируем пространство имен Prisma (с большой буквы) для работы с типами и ошибками
-import { Prisma } from "../../src/generated/prisma/client.js";
+import { Prisma } from "../../../src/generated/prisma/client.js";
 
 
 // =========================================================================
